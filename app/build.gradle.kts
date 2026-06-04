@@ -136,6 +136,7 @@ dependencies {
     // Coroutines
     implementation(libs.coroutines.core)
     implementation(libs.coroutines.android)
+    implementation(libs.coroutines.play.services)
 
     // Maps — OpenStreetMap
     implementation(libs.osmdroid)

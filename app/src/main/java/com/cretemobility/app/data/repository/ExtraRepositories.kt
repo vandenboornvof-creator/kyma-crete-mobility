@@ -16,6 +16,7 @@ import com.google.android.gms.location.*
 import com.google.gson.Gson
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.flow.*
 import timber.log.Timber
 import java.time.Instant
@@ -152,15 +153,11 @@ fun OtpLeg.toDomainLeg(): JourneyLeg {
         ),
         duration = (duration / 60).toInt(),
         distance = distance.toInt(),
-        line = if (mode != "WALK") TransitLine(
+        line = if (mode != TransitMode.WALK) TransitLine(
             id = route ?: "unknown",
             shortName = routeShortName ?: "",
             longName = routeLongName ?: "",
-            mode = when (mode.uppercase()) {
-                "BUS" -> TransitMode.BUS
-                "FERRY" -> TransitMode.FERRY
-                else -> TransitMode.BUS
-            },
+            mode = mode,
             operator = Operator.UNKNOWN,
             color = routeColor?.let { "#$it" } ?: "#1E88E5",
             textColor = routeTextColor?.let { "#$it" } ?: "#FFFFFF",
@@ -225,7 +222,7 @@ class LocationRepositoryImpl @Inject constructor(
     @SuppressLint("MissingPermission")
     override suspend fun getLastKnownLocation(): LatLng? {
         return try {
-            kotlinx.coroutines.tasks.await(fusedLocationClient.lastLocation)?.let { loc ->
+            fusedLocationClient.lastLocation.await()?.let { loc ->
                 LatLng(loc.latitude, loc.longitude)
             }
         } catch (e: Exception) {
