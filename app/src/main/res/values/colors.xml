@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aegean Blue primary palette -->
+    <color name="aegean_blue_10">#001D36</color>
+    <color name="aegean_blue_20">#003258</color>
+    <color name="aegean_blue_30">#00497C</color>
+    <color name="aegean_blue_40">#0062A1</color>
+    <color name="aegean_blue_50">#1565C0</color>
+    <color name="aegean_blue_60">#3B82D3</color>
+    <color name="aegean_blue_70">#5E9DE5</color>
+    <color name="aegean_blue_80">#9DC2F4</color>
+    <color name="aegean_blue_90">#D1E4FF</color>
+    <color name="aegean_blue_95">#E8F1FF</color>
+    <color name="aegean_blue_99">#FAFCFF</color>
+
+    <!-- Terracotta secondary palette -->
+    <color name="terracotta_40">#9A4523</color>
+    <color name="terracotta_80">#FFAB91</color>
+    <color name="terracotta_90">#FFDBD1</color>
+
+    <!-- Olive tertiary palette -->
+    <color name="olive_40">#4E6B00</color>
+    <color name="olive_80">#B5CF6B</color>
+    <color name="olive_90">#D1ECA3</color>
+
+    <!-- Transport mode colors -->
+    <color name="bus_color">#1565C0</color>
+    <color name="ferry_color">#00695C</color>
+    <color name="walk_color">#795548</color>
+    <color name="taxi_color">#F9A825</color>
+
+    <!-- Status colors -->
+    <color name="on_time_color">#2E7D32</color>
+    <color name="delayed_color">#E65100</color>
+    <color name="cancelled_color">#B71C1C</color>
+    <color name="live_color">#C62828</color>
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kyma Crete Mobility</string>
+    <string name="app_tagline">Your guide to getting around Crete</string>
+
+    <!-- Navigation -->
+    <string name="nav_journey">Journey</string>
+    <string name="nav_departures">Departures</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Journey Planner -->
+    <string name="journey_from">From</string>
+    <string name="journey_to">To</string>
+    <string name="journey_from_hint">Enter origin or use GPS</string>
+    <string name="journey_to_hint">Enter destination</string>
+    <string name="journey_plan">Plan journey</string>
+    <string name="journey_swap">Swap origin and destination</string>
+    <string name="journey_use_gps">Use current location</string>
+    <string name="journey_nearby_stops">Nearby stops</string>
+    <string name="journey_results">Journey results</string>
+    <string name="journey_no_results">No journeys found</string>
+    <string name="journey_loading">Planning your journey…</string>
+    <string name="journey_fastest">Fastest</string>
+    <string name="journey_cheapest">Cheapest</string>
+    <string name="journey_least_walking">Least walking</string>
+    <string name="journey_depart_now">Depart now</string>
+    <string name="journey_depart_at">Depart at</string>
+    <string name="journey_arrive_by">Arrive by</string>
+
+    <!-- Departures -->
+    <string name="departures_title">Departures</string>
+    <string name="departures_search_hint">Search stops or lines</string>
+    <string name="departures_live">LIVE</string>
+    <string name="departures_delayed">Delayed</string>
+    <string name="departures_cancelled">Cancelled</string>
+    <string name="departures_on_time">On time</string>
+    <string name="departures_no_upcoming">No upcoming departures</string>
+    <string name="departures_last_updated">Updated %1$s ago</string>
+    <string name="departures_platform">Platform %1$s</string>
+
+    <!-- Map -->
+    <string name="map_title">Map</string>
+    <string name="map_locate_me">My location</string>
+    <string name="map_stops_layer">Show stops</string>
+    <string name="map_routes_layer">Show routes</string>
+    <string name="map_traffic_layer">Live traffic</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_routes">Routes</string>
+    <string name="favorites_stops">Stops</string>
+    <string name="favorites_empty_routes">No favorite routes yet\nPlan a journey and save it!</string>
+    <string name="favorites_empty_stops">No favorite stops yet\nTap a stop and save it!</string>
+    <string name="favorites_remove">Remove favorite</string>
+    <string name="favorites_added">Added to favorites</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_el">Ελληνικά</string>
+    <string name="settings_language_nl">Nederlands</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_tourist_mode">Tourist mode</string>
+    <string name="settings_tourist_mode_desc">Show landmarks and extra info for visitors</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_delays">Delay alerts</string>
+    <string name="settings_notifications_last_bus">Last bus warning</string>
+    <string name="settings_cache">Offline data</string>
+    <string name="settings_cache_size">Cache size: %1$s</string>
+    <string name="settings_cache_clear">Clear cache</string>
+    <string name="settings_cache_cleared">Cache cleared</string>
+    <string name="settings_about">About</string>
+    <string name="kyma_promo_label">Discover more</string>
+    <string name="kyma_promo_text">Looking for property in Crete? Visit Kyma Living</string>
+    <string name="kyma_promo_url">https://www.kyma-living.com</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_data_sources">Data sources</string>
+    <string name="settings_privacy">Privacy policy</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_page1_title">Explore Crete</string>
+    <string name="onboarding_page1_desc">Plan journeys across Crete by bus, ferry, or on foot — all in one app.</string>
+    <string name="onboarding_page2_title">Real-time departures</string>
+    <string name="onboarding_page2_desc">See live departure times and get notified of delays before they happen.</string>
+    <string name="onboarding_page3_title">Works offline</string>
+    <string name="onboarding_page3_desc">Download timetables and maps for your region. No signal? No problem.</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_title">Location access</string>
+    <string name="permission_location_rationale">Kyma Crete Mobility uses your location to show nearby stops and plan journeys from where you are.</string>
+    <string name="permission_location_denied">Location permission denied. You can enter your start location manually.</string>
+    <string name="permission_notification_title">Notifications</string>
+    <string name="permission_notification_rationale">Enable notifications to receive delay alerts and last-bus warnings.</string>
+    <string name="permission_grant">Grant permission</string>
+    <string name="permission_deny">Not now</string>
+
+    <!-- Common -->
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_loading">Loading…</string>
+    <string name="common_error">Something went wrong</string>
+    <string name="common_no_internet">No internet connection</string>
+    <string name="common_offline_mode">Offline mode</string>
+    <string name="common_minutes_short">%1$d min</string>
+    <string name="common_hours_minutes">%1$dh %2$dm</string>
+    <string name="common_walk_distance">%1$d m walk</string>
+    <string name="common_price">€%1$.2f</string>
+    <string name="common_free">Free</string>
+    <string name="common_in_minutes">in %1$d min</string>
+    <string name="common_now">Now</string>
+    <string name="common_save">Save</string>
+    <string name="common_search">Search</string>
+    <string name="common_clear">Clear</string>
+
+    <!-- Transport modes -->
+    <string name="mode_bus">Bus</string>
+    <string name="mode_walk">Walk</string>
+    <string name="mode_ferry">Ferry</string>
+    <string name="mode_taxi">Taxi</string>
+    <string name="mode_transfer">Transfer</string>
+
+    <!-- Regions -->
+    <string name="region_heraklion">Heraklion</string>
+    <string name="region_chania">Chania</string>
+    <string name="region_rethymno">Rethymno</string>
+    <string name="region_lasithi">Lasithi</string>
+
+    <!-- Operators -->
+    <string name="operator_ktel_heraklion">KTEL Heraklion</string>
+    <string name="operator_ktel_chania">KTEL Chania</string>
+    <string name="operator_minoan">Minoan Lines</string>
+    <string name="operator_seajets">SeaJets</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_departures">Departure alerts</string>
+    <string name="notif_channel_last_bus">Last bus warning</string>
+    <string name="notif_channel_sync">Data sync</string>
+    <string name="notif_delay_title">Delay alert: %1$s</string>
+    <string name="notif_delay_text">%1$s delayed by %2$d minutes</string>
+    <string name="notif_last_bus_title">Last bus warning</string>
+    <string name="notif_last_bus_text">Last bus on line %1$s departs in %2$d minutes</string>
+
+    <!-- Errors -->
+    <string name="error_location_unavailable">Location unavailable</string>
+    <string name="error_no_route">No route found between these locations</string>
+    <string name="error_api_unavailable">Transit data temporarily unavailable</string>
+    <string name="error_gps_required">GPS is required for this feature</string>
+</resources>

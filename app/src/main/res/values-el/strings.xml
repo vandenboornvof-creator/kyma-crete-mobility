@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kyma Crete Mobility</string>
+    <string name="app_tagline">Ο οδηγός σας για τις μετακινήσεις στην Κρήτη</string>
+
+    <string name="nav_journey">Διαδρομή</string>
+    <string name="nav_departures">Αναχωρήσεις</string>
+    <string name="nav_map">Χάρτης</string>
+    <string name="nav_favorites">Αγαπημένα</string>
+    <string name="nav_settings">Ρυθμίσεις</string>
+
+    <string name="journey_from">Από</string>
+    <string name="journey_to">Προς</string>
+    <string name="journey_from_hint">Εισάγετε αφετηρία ή χρησιμοποιήστε GPS</string>
+    <string name="journey_to_hint">Εισάγετε προορισμό</string>
+    <string name="journey_plan">Σχεδιασμός διαδρομής</string>
+    <string name="journey_results">Αποτελέσματα διαδρομής</string>
+    <string name="journey_loading">Σχεδιασμός διαδρομής…</string>
+    <string name="journey_fastest">Γρηγορότερη</string>
+    <string name="journey_cheapest">Οικονομικότερη</string>
+    <string name="journey_least_walking">Λιγότερο περπάτημα</string>
+    <string name="journey_depart_now">Αναχώρηση τώρα</string>
+
+    <string name="departures_title">Αναχωρήσεις</string>
+    <string name="departures_live">ΖΩΝΤΑΝΑ</string>
+    <string name="departures_delayed">Καθυστέρηση</string>
+    <string name="departures_cancelled">Ακυρωμένο</string>
+    <string name="departures_on_time">Εγκαίρως</string>
+
+    <string name="common_loading">Φόρτωση…</string>
+    <string name="common_error">Κάτι πήγε στραβά</string>
+    <string name="common_no_internet">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+    <string name="common_retry">Δοκιμάστε ξανά</string>
+    <string name="common_now">Τώρα</string>
+    <string name="common_minutes_short">%1$d λεπτά</string>
+    <string name="common_in_minutes">σε %1$d λεπτά</string>
+
+    <string name="mode_bus">Λεωφορείο</string>
+    <string name="mode_walk">Περπάτημα</string>
+    <string name="mode_ferry">Πλοίο</string>
+    <string name="mode_taxi">Ταξί</string>
+
+    <string name="region_heraklion">Ηράκλειο</string>
+    <string name="region_chania">Χανιά</string>
+    <string name="region_rethymno">Ρέθυμνο</string>
+    <string name="region_lasithi">Λασίθι</string>
+</resources>

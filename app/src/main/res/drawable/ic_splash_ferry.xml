@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ferry silhouette icon for splash screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C54,20 30,32 26,44 L82,44 C78,32 54,20 54,20 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,44 L20,64 L88,64 L88,44 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,64 Q54,80 94,64 L88,64 L20,64 Z" />
+    <!-- Waves -->
+    <path
+        android:fillColor="#9DC2F4"
+        android:pathData="M14,72 Q24,68 34,72 Q44,76 54,72 Q64,68 74,72 Q84,76 94,72 L94,80 Q84,84 74,80 Q64,76 54,80 Q44,84 34,80 Q24,76 14,80 Z" />
+    <!-- Funnel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,28 L46,44 L62,44 L62,28 Z" />
+    <path
+        android:fillColor="#9DC2F4"
+        android:pathData="M46,22 L62,22 L62,30 L46,30 Z" />
+</vector>
