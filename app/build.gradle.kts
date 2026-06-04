@@ -96,7 +96,7 @@ dependencies {
     implementation(libs.compose.ui.graphics)
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
-implementation(libs.google.material)
+    implementation(libs.google.material)
     implementation(libs.compose.material.icons)
     implementation(libs.compose.animation)
     implementation(libs.compose.activity)

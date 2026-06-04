@@ -19,6 +19,7 @@ interface StopDao {
     @Query("SELECT * FROM transit_stops WHERE id = :id")
     suspend fun getStopById(id: String): StopEntity?
 
+    @RewriteQueriesToDropUnusedColumns
     @Query("""
         SELECT *, 
         (6371000 * acos(cos(radians(:lat)) * cos(radians(latitude)) * 
@@ -79,6 +80,7 @@ interface LineDao {
 
 @Dao
 interface StopTimeDao {
+    @RewriteQueriesToDropUnusedColumns
     @Query("""
         SELECT st.*, t.headsign, t.line_id, t.service_id
         FROM stop_times st
@@ -151,10 +153,8 @@ interface FavoriteRouteDao {
 
 @Dao
 interface FavoriteStopDao {
-    @Query("""
     @Transaction
-        SELECT * FROM favorite_stops ORDER BY added_at DESC
-    """)
+    @Query("SELECT * FROM favorite_stops ORDER BY added_at DESC")
     fun getAllFavoriteStops(): Flow<List<FavoriteStopWithStop>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)

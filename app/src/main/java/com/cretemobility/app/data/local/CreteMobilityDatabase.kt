@@ -21,7 +21,7 @@ import com.cretemobility.app.domain.model.*
         CachedJourneyEntity::class
     ],
     version = 1,
-    exportSchema = true
+    exportSchema = false
 )
 @TypeConverters(DatabaseConverters::class)
 abstract class CreteMobilityDatabase : RoomDatabase() {
